@@ -1,0 +1,8 @@
+node_modules
+web/node_modules
+.next
+web/.next
+.git
+.github
+*.log
+data/*.log

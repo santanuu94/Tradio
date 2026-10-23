@@ -7,8 +7,9 @@
     "init": "node scripts/v2/init.mjs",
     "cycle": "node scripts/v2/engine.mjs --once",
     "daemon": "node scripts/v2/engine.mjs",
+    "install:all": "npm --prefix web install",
     "dev": "npm --prefix web run dev",
-    "build": "npm --prefix web run build",
+    "build": "npm --prefix web install && npm --prefix web run build",
     "start": "node start.mjs",
     "web:start": "npm --prefix web run start"
   }
