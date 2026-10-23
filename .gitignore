@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+.next/
+web/.next/
+out/
+web/out/
+build/
+dist/
+
+# Netlify
+.netlify/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+data/*.log
+*.log
+
+# Local environment
+.env*.local
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db

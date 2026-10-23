@@ -1,0 +1,15 @@
+{
+  "name": "tradio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "node scripts/v2/init.mjs",
+    "cycle": "node scripts/v2/engine.mjs --once",
+    "daemon": "node scripts/v2/engine.mjs",
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "node start.mjs",
+    "web:start": "npm --prefix web run start"
+  }
+}

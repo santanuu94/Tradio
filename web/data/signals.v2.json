@@ -1,0 +1,806 @@
+{
+  "ts": 1788414082344,
+  "iso": "2026-09-03T05:41:22.344Z",
+  "version": 2,
+  "episodeNum": 11,
+  "equity": 43.36,
+  "walletBalance": 44.74,
+  "startingCapital": 100,
+  "goal": {
+    "target": 500,
+    "deadlineHours": 24,
+    "startEquity": 100,
+    "startedAt": 1788361349610
+  },
+  "totalPnl": -56.64,
+  "totalPnlPct": -56.64,
+  "progressPct": -14.2,
+  "goalGap": 456.64,
+  "realizedPnlEpisode": 0,
+  "peakEquity": 100,
+  "maxDrawdownPct": 0,
+  "riskState": "normal",
+  "regime": "us_down",
+  "generation": 11,
+  "aggression": {
+    "kellyFraction": 0.2099999999999999,
+    "leverageCap": 20,
+    "leverageCeiling": 40,
+    "unlockedLevel": 0
+  },
+  "lifetime": {
+    "episodes": 11,
+    "totalBlowups": 8,
+    "bestEpisodeReturnPct": 0.07250149555629548,
+    "bestEquityEver": 100,
+    "careerStartedAt": 1785431498326
+  },
+  "fundingRate": 0,
+  "investedNotional": 395.07,
+  "grossLeverage": 9.11,
+  "positions": [
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "market": "crypto",
+      "side": "long",
+      "leverage": 12,
+      "notional": 76.84,
+      "margin": 6.4,
+      "entry": 77680.11,
+      "mark": 77395.56,
+      "liqPrice": 71517.49,
+      "uPnl": -0.28,
+      "roiPct": -4.4,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=20.3%"
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "Ethereum",
+      "market": "crypto",
+      "side": "long",
+      "leverage": 12,
+      "notional": 68.58,
+      "margin": 5.71,
+      "entry": 2402.68,
+      "mark": 2393.87,
+      "liqPrice": 2212.07,
+      "uPnl": -0.25,
+      "roiPct": -4.4,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=26.0%"
+    },
+    {
+      "symbol": "SOL-USD",
+      "name": "Solana",
+      "market": "crypto",
+      "side": "long",
+      "leverage": 12,
+      "notional": 55.56,
+      "margin": 4.63,
+      "entry": 100.87,
+      "mark": 100.34,
+      "liqPrice": 92.87,
+      "uPnl": -0.29,
+      "roiPct": -6.36,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=36.4%"
+    },
+    {
+      "symbol": "XRP-USD",
+      "name": "XRP",
+      "market": "crypto",
+      "side": "long",
+      "leverage": 12,
+      "notional": 35.45,
+      "margin": 2.95,
+      "entry": 1.37,
+      "mark": 1.36,
+      "liqPrice": 1.26,
+      "uPnl": -0.16,
+      "roiPct": -5.36,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=28.8%"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "market": "us",
+      "side": "long",
+      "leverage": 4,
+      "notional": 21.33,
+      "margin": 5.33,
+      "entry": 224.41,
+      "mark": 224.41,
+      "liqPrice": 195.24,
+      "uPnl": 0,
+      "roiPct": 0,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=8.5%"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "market": "us",
+      "side": "long",
+      "leverage": 4,
+      "notional": 35.21,
+      "margin": 8.8,
+      "entry": 496.82,
+      "mark": 496.82,
+      "liqPrice": 432.23,
+      "uPnl": 0,
+      "roiPct": 0,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=30.2%"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "market": "us",
+      "side": "long",
+      "leverage": 4,
+      "notional": 35.21,
+      "margin": 8.8,
+      "entry": 254.98,
+      "mark": 254.98,
+      "liqPrice": 221.83,
+      "uPnl": 0,
+      "roiPct": 0,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=9.9%"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank",
+      "market": "india",
+      "side": "short",
+      "leverage": 5,
+      "notional": 44.01,
+      "margin": 8.8,
+      "entry": 700.8,
+      "mark": 708.75,
+      "liqPrice": 770.88,
+      "uPnl": -0.5,
+      "roiPct": -5.68,
+      "fundingAccrued": 0,
+      "setup_tag": "momentum",
+      "strategy_id": "tsmom",
+      "stopPct": 0.05,
+      "targetPct": 0.1,
+      "reason": "tsmom: r28=-5.7%"
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance",
+      "market": "india",
+      "side": "short",
+      "leverage": 5,
+      "notional": 22.9,
+      "margin": 4.58,
+      "entry": 1312.1,
+      "mark": 1305.82,
+      "liqPrice": 1443.31,
+      "uPnl": 0.11,
+      "roiPct": 2.39,
+      "fundingAccrued": 0,
+      "setup_tag": "mean-reversion",
+      "strategy_id": "rsi2dip",
+      "stopPct": 0.05,
+      "targetPct": 0.06,
+      "reason": "rsi2dip: r2=100.0 overbought"
+    }
+  ],
+  "watch": [
+    {
+      "symbol": "BTC-USD",
+      "name": "Bitcoin",
+      "market": "crypto",
+      "icon": "B"
+    },
+    {
+      "symbol": "ETH-USD",
+      "name": "Ethereum",
+      "market": "crypto",
+      "icon": "E"
+    },
+    {
+      "symbol": "SOL-USD",
+      "name": "Solana",
+      "market": "crypto",
+      "icon": "S"
+    },
+    {
+      "symbol": "XRP-USD",
+      "name": "XRP",
+      "market": "crypto",
+      "icon": "X"
+    },
+    {
+      "symbol": "DOGE-USD",
+      "name": "Dogecoin",
+      "market": "crypto",
+      "icon": "D"
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple",
+      "market": "us",
+      "icon": ""
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "market": "us",
+      "icon": "N"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "market": "us",
+      "icon": "M"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "market": "us",
+      "icon": "T"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "market": "us",
+      "icon": "A"
+    },
+    {
+      "symbol": "RELIANCE.NS",
+      "name": "Reliance",
+      "market": "india",
+      "icon": "R"
+    },
+    {
+      "symbol": "TCS.NS",
+      "name": "TCS",
+      "market": "india",
+      "icon": "T"
+    },
+    {
+      "symbol": "INFY.NS",
+      "name": "Infosys",
+      "market": "india",
+      "icon": "I"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "name": "HDFC Bank",
+      "market": "india",
+      "icon": "H"
+    }
+  ],
+  "recentEpisodes": [
+    {
+      "episodeNum": 10,
+      "episodeId": "ep_1786024097664_10",
+      "startedAt": "2026-08-06T13:48:17.664Z",
+      "endedAt": "2026-09-02T15:02:29.590Z",
+      "durationHours": 649.24,
+      "startingCapital": 100,
+      "finalEquity": 69.54762428116044,
+      "peakEquity": 100,
+      "returnPct": -0.3045,
+      "maxDrawdownPct": 0,
+      "blownUp": false,
+      "endReason": "time",
+      "generation": 10
+    },
+    {
+      "episodeNum": 9,
+      "episodeId": "ep_1785467918855_9",
+      "startedAt": "2026-07-31T03:18:38.855Z",
+      "endedAt": "2026-08-06T13:48:17.654Z",
+      "durationHours": 154.49,
+      "startingCapital": 100,
+      "finalEquity": 100.0725014955563,
+      "peakEquity": 100,
+      "returnPct": 0.0007,
+      "maxDrawdownPct": 0,
+      "blownUp": false,
+      "endReason": "time",
+      "generation": 9
+    },
+    {
+      "episodeNum": 8,
+      "episodeId": "ep_1785467019303_8",
+      "startedAt": "2026-07-31T03:03:39.303Z",
+      "endedAt": "2026-07-31T03:18:38.819Z",
+      "durationHours": 0.25,
+      "startingCapital": 100,
+      "finalEquity": -0.022272268489738595,
+      "peakEquity": 100,
+      "returnPct": -1.0002,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 8
+    },
+    {
+      "episodeNum": 7,
+      "episodeId": "ep_1785432488116_7",
+      "startedAt": "2026-07-30T17:28:08.116Z",
+      "endedAt": "2026-07-31T03:03:39.274Z",
+      "durationHours": 9.59,
+      "startingCapital": 100,
+      "finalEquity": -0.11638310123752482,
+      "peakEquity": 100,
+      "returnPct": -1.0012,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 7
+    },
+    {
+      "episodeNum": 6,
+      "episodeId": "ep_1785432221205_6",
+      "startedAt": "2026-07-30T17:23:41.205Z",
+      "endedAt": "2026-07-30T17:28:08.108Z",
+      "durationHours": 0.07,
+      "startingCapital": 100,
+      "finalEquity": -0.023941208926980834,
+      "peakEquity": 100,
+      "returnPct": -1.0002,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 6
+    },
+    {
+      "episodeNum": 5,
+      "episodeId": "ep_1785432097943_5",
+      "startedAt": "2026-07-30T17:21:37.943Z",
+      "endedAt": "2026-07-30T17:23:41.190Z",
+      "durationHours": 0.03,
+      "startingCapital": 100,
+      "finalEquity": -0.004865749852401017,
+      "peakEquity": 100,
+      "returnPct": -1,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 5
+    },
+    {
+      "episodeNum": 4,
+      "episodeId": "ep_1785432037822_4",
+      "startedAt": "2026-07-30T17:20:37.822Z",
+      "endedAt": "2026-07-30T17:21:37.940Z",
+      "durationHours": 0.02,
+      "startingCapital": 100,
+      "finalEquity": -0.10862214891551349,
+      "peakEquity": 100,
+      "returnPct": -1.0011,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 4
+    },
+    {
+      "episodeNum": 3,
+      "episodeId": "ep_1785431858238_3",
+      "startedAt": "2026-07-30T17:17:38.238Z",
+      "endedAt": "2026-07-30T17:20:37.814Z",
+      "durationHours": 0.05,
+      "startingCapital": 100,
+      "finalEquity": -0.000055501209704865556,
+      "peakEquity": 100,
+      "returnPct": -1,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 3
+    },
+    {
+      "episodeNum": 2,
+      "episodeId": "ep_1785431738370_2",
+      "startedAt": "2026-07-30T17:15:38.370Z",
+      "endedAt": "2026-07-30T17:17:38.232Z",
+      "durationHours": 0.03,
+      "startingCapital": 100,
+      "finalEquity": -0.16579819409099622,
+      "peakEquity": 100,
+      "returnPct": -1.0017,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 2
+    },
+    {
+      "episodeNum": 1,
+      "episodeId": "ep_1785431498326_1",
+      "startedAt": "2026-07-30T17:11:38.326Z",
+      "endedAt": "2026-07-30T17:15:38.327Z",
+      "durationHours": 0.07,
+      "startingCapital": 100,
+      "finalEquity": -0.028882495197137887,
+      "peakEquity": 100,
+      "returnPct": -1.0003,
+      "maxDrawdownPct": 0,
+      "blownUp": true,
+      "endReason": "blowup",
+      "generation": 1
+    }
+  ],
+  "brain": {
+    "generation": 11,
+    "episode": 11,
+    "regime": "us_down",
+    "aggression": {
+      "kellyFraction": 0.2099999999999999,
+      "leverageCap": 20,
+      "leverageCeiling": 40,
+      "unlockedLevel": 0
+    },
+    "importance": 58,
+    "lifetime": {
+      "episodes": 11,
+      "totalBlowups": 8,
+      "bestEpisodeReturnPct": 0.07250149555629548,
+      "bestEquityEver": 100,
+      "careerStartedAt": 1785431498326
+    },
+    "strategies": [
+      {
+        "id": "tsmom",
+        "name": "Time-series momentum",
+        "setup_tag": "momentum",
+        "markets": [
+          "crypto",
+          "us",
+          "india"
+        ],
+        "text": "Long when the 28-day trend is up (price > 200-SMA); short when down. Fast-resolving version for active trading.",
+        "status": "candidate",
+        "baseLev": 12,
+        "stopPct": 0.05,
+        "targetPct": 0.1,
+        "learned": {
+          "n": 0,
+          "expectancy_R": 0,
+          "win_rate": 0,
+          "kelly": 0.12,
+          "confidence": 0.2
+        }
+      },
+      {
+        "id": "donchian",
+        "name": "Donchian breakout",
+        "setup_tag": "breakout",
+        "markets": [
+          "crypto",
+          "us",
+          "india"
+        ],
+        "text": "Long a 20-day high breakout above the 200-SMA; short the 20-day breakdown below it. Turtle-style trend following.",
+        "status": "candidate",
+        "baseLev": 12,
+        "stopPct": 0.05,
+        "targetPct": 0.08,
+        "learned": {
+          "n": 0,
+          "expectancy_R": 0,
+          "win_rate": 0,
+          "kelly": 0.12,
+          "confidence": 0.2
+        }
+      },
+      {
+        "id": "rsi2dip",
+        "name": "RSI-2 dip (Connors)",
+        "setup_tag": "mean-reversion",
+        "markets": [
+          "crypto",
+          "us",
+          "india"
+        ],
+        "text": "Buy 2-day oversold ONLY in an uptrend (RSI2<10 & price>200-SMA); short overbought in a downtrend.",
+        "status": "candidate",
+        "baseLev": 10,
+        "stopPct": 0.05,
+        "targetPct": 0.06,
+        "learned": {
+          "n": 0,
+          "expectancy_R": 0,
+          "win_rate": 0,
+          "kelly": 0.12,
+          "confidence": 0.2
+        }
+      },
+      {
+        "id": "mom_trend",
+        "name": "Momentum + trend",
+        "setup_tag": "trend",
+        "markets": [
+          "crypto",
+          "us",
+          "india"
+        ],
+        "text": "Long strong 28-day momentum above the 200-SMA; ride the trailing exit.",
+        "status": "candidate",
+        "baseLev": 10,
+        "stopPct": 0.05,
+        "targetPct": 0.08,
+        "learned": {
+          "n": 0,
+          "expectancy_R": 0,
+          "win_rate": 0,
+          "kelly": 0.12,
+          "confidence": 0.2
+        }
+      },
+      {
+        "id": "orb",
+        "name": "Opening-range breakout",
+        "setup_tag": "orb",
+        "markets": [
+          "us"
+        ],
+        "text": "Trade the break of the first 30m session range at the US open (live-only).",
+        "status": "candidate",
+        "baseLev": 5,
+        "stopPct": 0.016,
+        "targetPct": 0.028,
+        "learned": {
+          "n": 0,
+          "expectancy_R": 0,
+          "win_rate": 0,
+          "kelly": 0.12,
+          "confidence": 0.2
+        }
+      },
+      {
+        "id": "ibreakout",
+        "name": "Intraday breakout (discovered)",
+        "setup_tag": "breakout-15m",
+        "markets": [
+          "crypto"
+        ],
+        "text": "15-minute breakout of the prior ~12h range (48 bars). Tight 1.5% stop, 8% target. Forward-test only.",
+        "status": "candidate",
+        "baseLev": 15,
+        "stopPct": 0.015,
+        "targetPct": 0.08,
+        "intraday": true,
+        "learned": {
+          "n": 0,
+          "expectancy_R": 0,
+          "win_rate": 0,
+          "kelly": 0.12,
+          "confidence": 0.2
+        }
+      }
+    ],
+    "activeCount": 0,
+    "avoidList": [],
+    "lessons": [
+      {
+        "ts": 1788361349600,
+        "type": "note",
+        "importance": 1,
+        "regime": "us_down",
+        "note": "No trades fired this episode - consider broadening gates"
+      },
+      {
+        "ts": 1785467918848,
+        "type": "note",
+        "importance": 1,
+        "regime": "us_down",
+        "note": "No trades fired this episode - consider broadening gates"
+      },
+      {
+        "ts": 1785467019293,
+        "type": "note",
+        "importance": 1,
+        "regime": "us_down",
+        "note": "No trades fired this episode - consider broadening gates"
+      },
+      {
+        "ts": 1785432488114,
+        "type": "note",
+        "importance": 1,
+        "regime": "us_down",
+        "note": "No trades fired this episode - consider broadening gates"
+      }
+    ],
+    "recentGenerations": [
+      {
+        "ts": 1785431738358,
+        "generation": 2,
+        "episodeNum": 1,
+        "startEquity": 100,
+        "endEquity": -0.028882495197137887,
+        "returnPct": -1.0002888249519715,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.42000000000000004,
+        "note": "Episode 1 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785431858237,
+        "generation": 3,
+        "episodeNum": 2,
+        "startEquity": 100,
+        "endEquity": -0.16579819409099622,
+        "returnPct": -1.00165798194091,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.39,
+        "note": "Episode 2 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785432037819,
+        "generation": 4,
+        "episodeNum": 3,
+        "startEquity": 100,
+        "endEquity": -0.000055501209704865556,
+        "returnPct": -1.000000555012097,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.36,
+        "note": "Episode 3 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785432097943,
+        "generation": 5,
+        "episodeNum": 4,
+        "startEquity": 100,
+        "endEquity": -0.10862214891551349,
+        "returnPct": -1.0010862214891552,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.32999999999999996,
+        "note": "Episode 4 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785432221204,
+        "generation": 6,
+        "episodeNum": 5,
+        "startEquity": 100,
+        "endEquity": -0.004865749852401017,
+        "returnPct": -1.000048657498524,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.29999999999999993,
+        "note": "Episode 5 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785432488115,
+        "generation": 7,
+        "episodeNum": 6,
+        "startEquity": 100,
+        "endEquity": -0.023941208926980834,
+        "returnPct": -1.00023941208927,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.2699999999999999,
+        "note": "Episode 6 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785467019295,
+        "generation": 8,
+        "episodeNum": 7,
+        "startEquity": 100,
+        "endEquity": -0.11638310123752482,
+        "returnPct": -1.0011638310123754,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.2399999999999999,
+        "note": "Episode 7 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1785467918850,
+        "generation": 9,
+        "episodeNum": 8,
+        "startEquity": 100,
+        "endEquity": -0.022272268489738595,
+        "returnPct": -1.0002227226848974,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.2099999999999999,
+        "note": "Episode 8 ended: blowup, edge=0.000"
+      },
+      {
+        "ts": 1786024097662,
+        "generation": 10,
+        "episodeNum": 9,
+        "startEquity": 100,
+        "endEquity": 100.0725014955563,
+        "returnPct": 0.0007250149555629548,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.2099999999999999,
+        "note": "Episode 9 completed: goal hit or profitable, edge=0.000"
+      },
+      {
+        "ts": 1788361349604,
+        "generation": 11,
+        "episodeNum": 10,
+        "startEquity": 100,
+        "endEquity": 69.54762428116044,
+        "returnPct": -0.30452375718839564,
+        "edge": 0,
+        "unlockedLevel": 0,
+        "kellyFraction": 0.2099999999999999,
+        "note": "Episode 10 ended: time, edge=0.000"
+      }
+    ]
+  },
+  "world": {
+    "regime": "neutral",
+    "risk_posture": "normal",
+    "macro": [],
+    "crypto": {},
+    "fearGreedCrypto": {
+      "value": null,
+      "label": "unknown"
+    },
+    "fearGreedStocks": {
+      "value": null,
+      "label": "unknown"
+    },
+    "putCall": "-",
+    "fundingRate": 0,
+    "whaleCrowd": "unknown",
+    "oiUsd": "-",
+    "fed": [],
+    "headlines": [],
+    "newsMood": {
+      "mean_s": 0,
+      "dispersion": 0,
+      "volume": 0,
+      "impact": 0,
+      "n": 0,
+      "top": [],
+      "mixed": false
+    },
+    "social": {},
+    "thesis": "neutral",
+    "deep_due": {
+      "macroAge": 92851,
+      "fngAge": 2986253547,
+      "staleSources": [
+        "cryptoFng",
+        "cnnFng",
+        "cboePutCall"
+      ]
+    },
+    "_fetchedAt": 1788414082334
+  }
+}

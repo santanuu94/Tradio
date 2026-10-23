@@ -1,0 +1,41 @@
+{
+  "sources": {
+    "macro": {
+      "ts": 1788413989482,
+      "data": {}
+    },
+    "cryptoFng": {
+      "ts": 1785427828786,
+      "data": {}
+    },
+    "cnnFng": {
+      "ts": 1785427829739,
+      "data": {}
+    },
+    "cboePutCall": {
+      "ts": 1785427830341,
+      "data": {}
+    },
+    "hyperliquid": {
+      "ts": 1788413809131,
+      "data": {}
+    },
+    "stocktwits": {
+      "ts": 1788413269165,
+      "data": {}
+    },
+    "fedHeadlines": {
+      "ts": 1788413900181,
+      "data": {}
+    },
+    "cryptoNews": {
+      "ts": 1788413359226,
+      "data": {}
+    },
+    "gdeltTone": {
+      "ts": 1788413900841,
+      "data": {}
+    }
+  },
+  "lastUpdate": 1788413989482
+}

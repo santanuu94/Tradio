@@ -1,0 +1,131 @@
+[
+  {
+    "id": "tsmom",
+    "name": "Time-series momentum",
+    "setup_tag": "momentum",
+    "markets": [
+      "crypto",
+      "us",
+      "india"
+    ],
+    "text": "Long when the 28-day trend is up (price > 200-SMA); short when down. Fast-resolving version for active trading.",
+    "status": "candidate",
+    "baseLev": 12,
+    "stopPct": 0.05,
+    "targetPct": 0.1,
+    "learned": {
+      "n": 0,
+      "expectancy_R": 0,
+      "win_rate": 0,
+      "kelly": 0.12,
+      "confidence": 0.2
+    }
+  },
+  {
+    "id": "donchian",
+    "name": "Donchian breakout",
+    "setup_tag": "breakout",
+    "markets": [
+      "crypto",
+      "us",
+      "india"
+    ],
+    "text": "Long a 20-day high breakout above the 200-SMA; short the 20-day breakdown below it. Turtle-style trend following.",
+    "status": "candidate",
+    "baseLev": 12,
+    "stopPct": 0.05,
+    "targetPct": 0.08,
+    "learned": {
+      "n": 0,
+      "expectancy_R": 0,
+      "win_rate": 0,
+      "kelly": 0.12,
+      "confidence": 0.2
+    }
+  },
+  {
+    "id": "rsi2dip",
+    "name": "RSI-2 dip (Connors)",
+    "setup_tag": "mean-reversion",
+    "markets": [
+      "crypto",
+      "us",
+      "india"
+    ],
+    "text": "Buy 2-day oversold ONLY in an uptrend (RSI2<10 & price>200-SMA); short overbought in a downtrend.",
+    "status": "candidate",
+    "baseLev": 10,
+    "stopPct": 0.05,
+    "targetPct": 0.06,
+    "learned": {
+      "n": 0,
+      "expectancy_R": 0,
+      "win_rate": 0,
+      "kelly": 0.12,
+      "confidence": 0.2
+    }
+  },
+  {
+    "id": "mom_trend",
+    "name": "Momentum + trend",
+    "setup_tag": "trend",
+    "markets": [
+      "crypto",
+      "us",
+      "india"
+    ],
+    "text": "Long strong 28-day momentum above the 200-SMA; ride the trailing exit.",
+    "status": "candidate",
+    "baseLev": 10,
+    "stopPct": 0.05,
+    "targetPct": 0.08,
+    "learned": {
+      "n": 0,
+      "expectancy_R": 0,
+      "win_rate": 0,
+      "kelly": 0.12,
+      "confidence": 0.2
+    }
+  },
+  {
+    "id": "orb",
+    "name": "Opening-range breakout",
+    "setup_tag": "orb",
+    "markets": [
+      "us"
+    ],
+    "text": "Trade the break of the first 30m session range at the US open (live-only).",
+    "status": "candidate",
+    "baseLev": 5,
+    "stopPct": 0.016,
+    "targetPct": 0.028,
+    "learned": {
+      "n": 0,
+      "expectancy_R": 0,
+      "win_rate": 0,
+      "kelly": 0.12,
+      "confidence": 0.2
+    }
+  },
+  {
+    "id": "ibreakout",
+    "name": "Intraday breakout (discovered)",
+    "setup_tag": "breakout-15m",
+    "markets": [
+      "crypto"
+    ],
+    "text": "15-minute breakout of the prior ~12h range (48 bars). Tight 1.5% stop, 8% target. Forward-test only.",
+    "status": "candidate",
+    "baseLev": 15,
+    "stopPct": 0.015,
+    "targetPct": 0.08,
+    "intraday": true,
+    "learned": {
+      "n": 0,
+      "expectancy_R": 0,
+      "win_rate": 0,
+      "kelly": 0.12,
+      "confidence": 0.2
+    }
+  }
+]
